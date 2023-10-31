@@ -22,7 +22,7 @@ def click():
     path=filedialog.askopenfilename()
     print(path)
     
-#FUNCTION OF READ
+#FUNCTION OF READ file
 def Read():
     page_number=page_box.get()
     if path and page_number:
